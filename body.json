@@ -5,6 +5,6 @@
   "side": "{{strategy.order.comment}}",
   "quantity": "{{quantity}}",
   "binanceApiKey": "{{binanceApiKey}}",
-  "binanceSecretKey": "{{binanceSecretKey}}"
+  "binanceSecretKey": "{{binanceSecretKey}}",
   "positionSide" : "{{positionSide}}"
 }
