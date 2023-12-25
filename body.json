@@ -6,5 +6,5 @@
   "quantity": "{{quantity}}",
   "binanceApiKey": "{{binanceApiKey}}",
   "binanceSecretKey": "{{binanceSecretKey}}"
-
+  "positionSide" : "{{positionSide}}"
 }
