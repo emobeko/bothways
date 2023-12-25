@@ -18,11 +18,11 @@ def webhook():
         quantity = data['quantity']
         binanceApiKey = data['binanceApiKey']
         binanceSecretKey = data['binanceSecretKey']
-
+        positionSide = data['positionSide']
         params = {
             "symbol": ticker,
             "side": side,
-            "positionSide": "LONG",
+            "positionSide": positionSide,
             "type": "MARKET",
             "quantity": quantity,
         }
