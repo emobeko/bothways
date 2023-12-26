@@ -34,7 +34,6 @@ def webhook():
         pass
     return {
         "code": "success",
-        "positionSide": positionSide ,
     }
 
 
